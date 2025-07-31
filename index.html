@@ -9,14 +9,19 @@
 <body>
     <div id="game-container">
         <h1 id="title">PAINSPIRE COIN</h1>
+        <div id="character-container">
+            <img id="character" src="images/character1.png" alt="Character">
+        </div>
         <p class="level">Уровень: <span id="level">1</span></p>
-        <p class="pain">Боль: <span id="pain-count">0</span></p>
+        <p class="pain">0 <span id="pain-count">БОЛЬ</span></p>
         <button id="blood-btn">ПРОЛИТЬ КРОВЬ</button>
-        <div class="donation-options">
+        <div id="rewards">
             <p>⭐ Скидка 20% — <span>340 000</span></p>
             <p>⭐ Доступ в приватку — <span>300 000</span></p>
             <p>⭐ Шмотка до 4000 грн — <span>1 000 000</span></p>
         </div>
+        <audio id="level-up-sound" src="sounds/level-up.mp3"></audio>
+        <audio id="click-sound" src="sounds/click.mp3"></audio>
     </div>
     <script src="script.js"></script>
 </body>
